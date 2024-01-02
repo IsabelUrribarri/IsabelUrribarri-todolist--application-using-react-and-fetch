@@ -15,6 +15,7 @@ const TodoList = () => {
       });
       let data = await response.json();
       console.log(data);
+      obtenerTareas(); 
     } catch (error) {
       console.log(error);
     }
